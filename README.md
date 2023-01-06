@@ -74,3 +74,33 @@ then Image and make sure to add a new source, you can name it whatever but for n
 
 
 after you add that, we need to search for the image that's in the files folder
+
+
+![image](https://user-images.githubusercontent.com/34391969/211072814-d123a2e9-861e-4686-93f6-8d60fe44e50f.png)
+
+and done, now for the text we do the same thing, but a little differently
+
+Add the source and select the Text option, for me it's this
+
+
+![image](https://user-images.githubusercontent.com/34391969/211073487-18d95f57-9257-4303-b454-cfea2f15f077.png)
+
+
+just like the albumn, we're gonna be adding a new source instead
+
+
+![image](https://user-images.githubusercontent.com/34391969/211073670-9d0ecbd4-4dc6-4258-b6cf-6be89ae36e0a.png)
+
+
+after that, you can edit the font and size and such, but the important part on this one is that we select 'Read from file'
+
+
+![image](https://user-images.githubusercontent.com/34391969/211073997-d40741b1-b668-466c-9038-e6c7d0d12248.png)
+
+
+and now we have this product . . . enjoy
+
+
+![image](https://user-images.githubusercontent.com/34391969/211074383-9d7011bb-e593-43db-9258-c7ec3d7a7b89.png)
+
+
