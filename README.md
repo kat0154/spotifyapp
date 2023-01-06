@@ -56,3 +56,21 @@ You should also notice that it created some extra files in this folder, dw about
 
 ![image](https://user-images.githubusercontent.com/34391969/211059937-2b66e156-f278-4bcd-ac40-ddc455cbbcd2.png)
 
+
+# For Step 3, connecting it to stream
+For this step just keep in mind that i use [Streamlabs OBS](https://streamlabs.com/desktop/download), but i thinnk it should be the same for [obs studio](https://obsproject.com/download) as well
+
+## Adding the image:
+now this is for the image art or albumn art of the song being displayed, just click Add Source
+
+
+![image](https://user-images.githubusercontent.com/34391969/211062070-ae8c84c4-c663-4c0d-84c5-7afc9f75e3b9.png)
+
+
+then Image and make sure to add a new source, you can name it whatever but for now im just calling it 'album'
+
+
+![image](https://user-images.githubusercontent.com/34391969/211062481-ec007d03-a1a5-41d5-b50b-c6892102debe.png)
+
+
+after you add that, we need to search for the image that's in the files folder
