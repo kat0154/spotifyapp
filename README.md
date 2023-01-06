@@ -104,3 +104,19 @@ and now we have this product . . . enjoy
 ![image](https://user-images.githubusercontent.com/34391969/211074383-9d7011bb-e593-43db-9258-c7ec3d7a7b89.png)
 
 
+# CAUTION
+## I should've said this earlier, but when downloading you may get this error right here
+
+
+![image](https://user-images.githubusercontent.com/34391969/211076893-afb76902-b636-4a71-80bb-b137c529534b.png)
+
+
+## Just click more info and Run anyway;
+
+
+![image](https://user-images.githubusercontent.com/34391969/211077062-cc46d087-3a62-454d-910d-6597e6d09129.png)
+
+
+## The reason this shows up is besause im broke boi and can't pay to sign the package as a publisher right now
+
+# Enjoy <3
