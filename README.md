@@ -3,7 +3,7 @@ Ever wonder how streamers display what spotify song they're listening to on stre
 
 
 
-##Step 1, getting the ID and Secret:
+# Step 1, getting the ID and Secret:
 
 Firstly, you're gonna wanna head [here](https://developer.spotify.com/dashboard/login) and login
 
@@ -20,7 +20,7 @@ then BOOM, you have it; i'd reccomend saving these in a text file somewhere for 
 
 
 and now we're on to 
-##Step 2, initiating the client:
+# Step 2, initiating the client:
 
 Alright so ive tried to simplify this AS Much AS i Possibly Could for all you peeps okay, though i am really bad at explaining so just try an follow...
 
