@@ -1,14 +1,13 @@
 # spotifyapp
 Ever wonder how streamers display what spotify song they're listening to on stream? well here's a thing that does exactly that...
 
-
+//updated version for v3.0.1
 
 # Step 1, getting the ID and Secret:
 
 Firstly, you're gonna wanna head [here](https://developer.spotify.com/dashboard/login) and login
 
 after that, you need to create an app
-
 
 ![image](https://user-images.githubusercontent.com/34391969/211055994-7b936aa3-633b-4536-b34f-8db3e699c9e8.png)
 
@@ -19,6 +18,8 @@ then BOOM, you have it; i'd reccomend saving these in a text file somewhere for 
 ![image](https://user-images.githubusercontent.com/34391969/211056544-06f0ca76-e0d6-4b54-9108-b456e32f84c1.png)
 
 
+//this is all the same ^
+
 and now we're on to 
 # Step 2, initiating the client:
 
@@ -28,83 +29,59 @@ Firstly, we're gonna download the file and place the folder on your desktop (it 
 
 Now that's done we run the program, it's gonna ask you for that Client ID first so have that ready to copy-paste
 
+//ngl gang im lazy ash rn and i doubt anyone will even use this except me; BUT heres where the updates to v3.0.1 matter
 
-![image](https://user-images.githubusercontent.com/34391969/211058891-f3f970e4-a82e-4d80-98d1-66b472d8d551.png)
+//firstly that old console stuff i had here was ass; heres the updated:
 
+//(yes the remember me works)
 
-And now it's gonna ask for your Secret, so let's copy paste that as well
+<img width="499" height="394" alt="image" src="https://github.com/user-attachments/assets/9aaa36fc-bd26-4e2e-a511-f3b6f4726f9d" />
 
+//after you fill that out with all the info with the correct details and press the initiate client button; youll notice a pop up in whatever is your open/default browser for you to login to spotify
 
-![image](https://user-images.githubusercontent.com/34391969/211059103-9edf114e-8e30-4b98-8d36-d445a1e31108.png)
+//and NO, it doesnt matter what you put there for bot name thats just display purposes, ANYWAY
 
+//this is to get the 'access_token' we need to make the app run based off your account and what client id /secret you put in .... I.E this is pretty much making it lock to your account to show the music that you're listening to so dont worry about it and just login
 
-Finally it's gonna ask for a bot name, now this does not matter at all, this is just what it'll call itself when it starts working
+//you'll notice that 2 things pop up now
 
+<img width="498" height="395" alt="image" src="https://github.com/user-attachments/assets/fe09880b-3e18-43ce-9564-296c1af2434e" />
 
-![image](https://user-images.githubusercontent.com/34391969/211059421-e62ec23e-4183-4eeb-b166-bcd485ebf7ce.png)
+<img width="227" height="139" alt="image" src="https://github.com/user-attachments/assets/ff2767f3-8628-42fc-9dc9-4969b3e83a40" />
 
+//the test button does literally nothing ; i only added it to make sure the console i added there was working and forgot to remove it ... its not that big a deal, like maybe 2 lines of code BUTT ill leave it for now
 
-
-and now it's doing it's thing
-
-
-![image](https://user-images.githubusercontent.com/34391969/211059700-6b70296e-562d-4265-9574-8515fba2e8b7.png)
-
-
-You should also notice that it created some extra files in this folder, dw about it too much bc these are needed i promise
-
-
-![image](https://user-images.githubusercontent.com/34391969/211059937-2b66e156-f278-4bcd-ac40-ddc455cbbcd2.png)
+//As for the other one; if you accidentally close it don't worry (if you clicked the remember me anw) just click on reload client button and itll come back
 
 
 # For Step 3, connecting it to stream
 For this step just keep in mind that i use [Streamlabs OBS](https://streamlabs.com/desktop/download), but i thinnk it should be the same for [obs studio](https://obsproject.com/download) as well
 
-## Adding the image:
-now this is for the image art or albumn art of the song being displayed, just click Add Source
+//alr so this part is MEGA changed; instead of adding all those gay ahh files theres only 1
 
+//add new window capture
 
-![image](https://user-images.githubusercontent.com/34391969/211062070-ae8c84c4-c663-4c0d-84c5-7afc9f75e3b9.png)
+<img width="898" height="697" alt="image" src="https://github.com/user-attachments/assets/76239021-4ec9-4909-918c-73b691f679d9" />
 
+//name it whatever doesnt matter only u see it
 
-then Image and make sure to add a new source, you can name it whatever but for now im just calling it 'album'
+<img width="594" height="318" alt="image" src="https://github.com/user-attachments/assets/d164dc5d-9456-45d0-a540-a70fad07c9c5" />
 
+//[spotifyapp.exe]: Now Playing
 
-![image](https://user-images.githubusercontent.com/34391969/211062481-ec007d03-a1a5-41d5-b50b-c6892102debe.png)
+//remove cursor 
 
+<img width="597" height="797" alt="image" src="https://github.com/user-attachments/assets/abe5cc7d-032e-40d0-b114-4a40e940bfa2" />
 
-after you add that, we need to search for the image that's in the files folder
+//add and resize however you want
 
-
-![image](https://user-images.githubusercontent.com/34391969/211072814-d123a2e9-861e-4686-93f6-8d60fe44e50f.png)
-
-and done, now for the text we do the same thing, but a little differently
-
-Add the source and select the Text option, for me it's this
-
-
-![image](https://user-images.githubusercontent.com/34391969/211073487-18d95f57-9257-4303-b454-cfea2f15f077.png)
-
-
-just like the albumn, we're gonna be adding a new source instead
-
-
-![image](https://user-images.githubusercontent.com/34391969/211073670-9d0ecbd4-4dc6-4258-b6cf-6be89ae36e0a.png)
-
-
-after that, you can edit the font and size and such, but the important part on this one is that we select 'Read from file'
-
-
-![image](https://user-images.githubusercontent.com/34391969/211073997-d40741b1-b668-466c-9038-e6c7d0d12248.png)
-
-
-and now we have this product . . . enjoy
-
-
-![image](https://user-images.githubusercontent.com/34391969/211074383-9d7011bb-e593-43db-9258-c7ec3d7a7b89.png)
+<img width="772" height="439" alt="image" src="https://github.com/user-attachments/assets/cb056b11-054c-4a06-a236-f4540b827c8b" />
 
 
 # CAUTION
+
+//ngl gang idek if this will still happen; but if it does its the same as before; i DID sign it this time just not paid version so idek
+
 ## I should've said this earlier, but when downloading you may get this error right here
 
 
